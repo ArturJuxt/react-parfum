@@ -1,0 +1,98 @@
+.wrapper {
+  display: flex;
+  background-color: wheat;
+
+  .logo_parfum {
+    display: flex;
+
+    .button {
+      padding-right: 20px;
+
+      .logo {
+        border-radius: 50%;
+        background-color: white;
+        border: solid 3px blue;
+        color: black;
+        display: inline-block;
+        font-size: 10px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+      }
+    }
+
+    .logo_name {
+      h2 {
+        margin-bottom: 0;
+        padding-top: 12px;
+        font-size: 29px;
+      }
+      p {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .delivery {
+    display: flex;
+
+    img {
+      background-color: wheat;
+      padding-top: 36px;
+      padding-left: 50px;
+      margin-right: 10px;
+      width: 74px;
+    }
+
+    .delivery_info {
+      h2 {
+        padding-top: 40px;
+        margin: 0;
+        font-size: 29px;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+        font-size: 13.3px;
+      }
+    }
+  }
+
+  .present {
+    display: flex;
+
+    img {
+      padding-top: 36px;
+      padding-left: 50px;
+      margin-right: 10px;
+      width: 60px;
+    }
+
+    .present_info {
+      h2 {
+        padding-top: 40px;
+        margin: 0;
+        font-size: 29px;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+        font-size: 13.3px;
+      }
+    }
+  }
+
+  .number {
+    h2 {
+      padding-left: 30px;
+      padding-top: 46px;
+      margin: 0;
+      font-size: 29px;
+      color: green;
+    }
+  }
+}

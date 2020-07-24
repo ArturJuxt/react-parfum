@@ -1,0 +1,21 @@
+.menu_list {
+  background-color: rgb(206, 141, 94);
+  height: 35px;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      list-style-type: none;
+      font-size: 21px;
+      cursor: pointer;
+      padding-top: 5px;
+    }
+  }
+
+  .active {
+    background-color: rgb(165, 173, 189);
+    height: 30px;
+    border-radius: 12px;
+  }
+}

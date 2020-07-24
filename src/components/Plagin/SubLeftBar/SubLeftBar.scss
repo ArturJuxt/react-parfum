@@ -1,0 +1,23 @@
+.sub_left_bar {
+  border: solid 1px gray;
+  background-color: khaki;
+
+  img {
+    width: 217px;
+  }
+
+  .list {
+    ul {
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        margin: 10px;
+
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+}
